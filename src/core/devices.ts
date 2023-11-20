@@ -13,3 +13,5 @@ const listMidiDevices = (): string[] => {
 const useMidiDevice = (deviceName: string) => {
   return new easymidi.Input(deviceName);
 };
+
+const createVirtualMidiDevice = (deviceName: string) => {};
